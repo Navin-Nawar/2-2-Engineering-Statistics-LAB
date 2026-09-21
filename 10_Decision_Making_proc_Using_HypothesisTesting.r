@@ -49,3 +49,34 @@ plot(density(sample_data),
 
 abline(v = mu0, col = "red", lwd = 2)  # Null hypothesis mean
 abline(v = mean(sample_data), col = "blue", lwd = 2)  # Sample mean
+
+
+
+
+
+
+
+
+
+# ----------lab---------
+# Name of the experiment: Simulate decision-making processes using Hypothesis testing.
+
+#  Theory:\
+#  The lab demonstrates the use of hypothesis testing to simulate decision-making processes. It tests the hypothesis about the population mean by comparing the sample mean against hypothesized value.
+
+#  Objective:\
+#  • To simulate a decision-making process using hypothesis testing.\
+#  • To perform a one-sample t-test and interpret the result.\
+#  • To visualize the data using a histogram and density plot.
+
+#  Pseudocode:
+
+#  1. Define parameters:\
+#     • Null hypothesis mean (mu0), true population mean (mu1), standard deviation (sigma), sample size (n), significance level (alpha)
+# 2. Generate sample data based on the true population mean.
+# 3. Perform a t-test to compare the sample mean with the null hypothesis mean (mu0)
+# 4. Make a decision based on the p-value:\
+#     • If the p-value \< alpha, reject H0 (null hypothesis)\
+#     • Otherwise, fail to reject H0
+# 5. Output the test statistic, p value and decision.
+# 6. Plot the histogram and density plot to visualize the critical region.
