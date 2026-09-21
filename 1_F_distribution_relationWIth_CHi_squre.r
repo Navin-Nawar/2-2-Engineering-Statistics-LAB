@@ -81,8 +81,7 @@ boxplot(f_data,
 # buted variables normalized by their
 # degrees of freedom:
 
-# F = (χ²_df1/df1)
-#     (χ²_df2/df2)
+# F = (χ²_df1/df1)/(χ²_df2/df2)
 
 # where:
 # • χ²_df1 and χ²_df2 are chi-square distributed
