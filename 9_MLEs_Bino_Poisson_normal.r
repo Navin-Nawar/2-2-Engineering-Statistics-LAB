@@ -61,3 +61,26 @@ hist(data_norm,
      probability = TRUE)             # Show probability scale
 
 abline(v = mu_mle, col = "red", lwd = 2)  # Add MLE line
+
+
+
+
+
+
+
+# -------lab--------
+# Name of the experiment: MLE for Binomial, Poisson and Normal Distribution.
+
+#  Theory:\
+#  • Binomial MLE : p̂ = Σx/N\
+#  • Poisson MLE : λ̂ = Σx/N\
+#  • Normal MLE : μ̂ = Σx/N , σ̂ = √(Σ(x-x̄)²/N)
+
+#  Objective:\
+#  Estimate parameters using maximum likelihood estimation (MLE)
+
+#  Pseudocode:
+
+#  1. Generate Binomial, Poisson and Normal data.
+# 2. Compute MLE estimates for p, λ, μ, σ
+# 3. Print results.

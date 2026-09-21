@@ -49,3 +49,36 @@ hist(medians,
      main = "Distribution of Sample Medians",
      xlab = "Value",
      border = "white")
+
+
+
+
+
+------lab----------
+Name of the experiment: Efficiency of Mean vs. Median.
+
+ Theory:\
+ • The sample mean is the most efficient estimator for normally distributed data,having the smallest variance.\
+ • The sample median is more robust to outliers but has higher variance.\
+ • Efficiency is measured as the ratio of variances.
+ Efficiency = Var (median)/Var (mean)
+
+ A lower value (\<1) indicates that mean\
+ and median using simulation.
+
+ Objective:\
+ To compare the efficiency of the sample\
+ mean and median using simulation.
+
+ Pseudocode:
+
+ 1. Set parameters: μ, σ, n, Nsim (mu,\
+    sigma, n, N - 1text + 5miny) μ, σ, n, Nsim
+2. Initialize vectors for sample means and\
+    medians.
+3. For each simulation:\
+    • Generate normal data\
+    • Compute sample mean and median
+4. Compute efficiency as the ratio of\
+    variances.
+5. Plot histogram of means and medians.

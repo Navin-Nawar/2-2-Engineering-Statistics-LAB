@@ -50,3 +50,55 @@ qqplot(qchisq(ppoints(N_sim), df = k),
 abline(0, 1,                      # Add y = x reference line
        col = "red",
        lwd = 2)
+
+
+
+
+
+
+
+# ----------------LAB rePORT-------------
+# Experiment no: 2
+
+# Name of the experiment: Generation and
+# analysis of χ²-distributed data
+
+# Theory:
+# The chi-square (χ²) distribution is widely
+# used in statistics, particularly in hypothesis
+# testing and confidence interval estimation.
+# It is defined as the sum of the squares
+# of k independent standard normal random
+# variables:
+
+# χ = Z₁² + Z₂² + ... + Zₖ²
+
+# where Zᵢ ~ N(0,1). The mean and variance
+# of χ²-distribution with K degrees of freedom
+# are:
+# • E[χ] = k
+# • V[χ] = 2k
+
+# Objective:
+# The objective of this lab is to generate
+# χ²-distribution data, compute empirical mean
+# and variance, and compare them with
+# theoretical values. Additionally, we visualize
+# the distribution using histograms, density
+# plots, and Q-Q plots.
+
+
+# Pseudocode:
+
+# 1. Set parameters: degrees of freedom and
+#    number of simulations.
+# 2. Generate random samples from a χ²-
+#    distribution.
+# 3. Compute empirical mean and variance.
+# 4. Print computed mean and variance.
+# 5. Generate and display:
+#    • Histogram with theoretical χ² density
+#      curve.
+#    • Density plot with theoretical χ² curve.
+#    • Q-Q plot comparing sample quantiles to
+#      theoretical quantiles.

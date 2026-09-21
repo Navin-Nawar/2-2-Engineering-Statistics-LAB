@@ -51,3 +51,30 @@ plot(sample_sizes, vars,
 abline(h = sigma^2,
        col = "red",
        lwd = 2)
+
+
+
+# ----------lab report---------
+# Name of the experiment: Demonstrate consistency by increasing sample size.
+
+#  Theory:
+
+#  Consistency of an estimator means that as the sample size increases, the estimator converges to the true parameter value.\
+#  The sample mean x̄ is a consistent estimator for the population mean μ, and its variance decreases as the sample size increases, following:
+
+#  var (x̄) = σ²/n
+
+#  Objective:
+
+#  To demonstrate consistency by showing that:\
+#  • The sample mean converges to the population mean (μ)\
+#  • The variance of the sample mean decreases with increasing sample size
+
+#  Pseudocode:
+
+#  1. Define parameters: population mean (μ), standard deviation, sample size and number of simulations (N\_sim).
+# 2. Initialize reserve for sample means and variances.
+# 3. For each sample size:\
+#     • Generate N\_sim sample means.\
+#     • Compute and store the average sample mean and variance.
+# 4. Plot the sample means and variances against sample size with theoretical reference lines

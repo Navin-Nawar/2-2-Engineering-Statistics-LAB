@@ -62,3 +62,41 @@ plot(density(sample_data),
 abline(v = critical_value,
        col = "red",
        lty = 2)  # Critical value line
+
+
+
+
+
+
+# ----------lab---------
+# Name of the experiment: Perform hypothesis testing step-by-step using real or simulated data.
+
+# Theory:
+# In this lab, walks through the process of hypothesis testing using real or simulated data. I am testing a one-sample t-test, where the null hypothesis is that the population mean is equal to a specific value, and the alternative hypothesis is that the population mean is greater than that value.
+
+# Objective:
+# • To perform hypothesis testing step-by-step.
+# • To calculate the test statistic and p-value.
+# • To make a decision on whether to reject or fail to reject the null hypothesis.
+# • To visualize the sample data with critical regions using a histogram and density plot.
+
+# Procedure:
+# 1. Set parameters: μ0, μ1, sigma, n.
+# 2. Generate sample data: Simulate data based on μ1.
+# 3. State Hypothesis:
+#    • H0: μ = μ0
+#    • H1: μ > μ0
+# 4. Choose significant level: set alpha = 0.05
+# 5. Calculate test statistic:
+   
+#    t = (X̄ - μ0) / (S/√n)
+
+# 6. Determine critical value and p-value:
+#    • critical value = tα, df
+#    • p-value: calculate using the p() function.
+# 7. Make Decision:
+#    • If t-stat > critical value, reject H0.
+#    • Otherwise, fail to reject H0.
+# 8. Output: Display test statistic, p-value, critical value and decision.
+# 9. Plot:
+#    • Histogram and density plot with critical region.

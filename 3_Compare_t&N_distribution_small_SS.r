@@ -67,3 +67,30 @@ qqplot(qt(ppoints(N_sim), df = n - 1),
 abline(0, 1,                        # Add y = x reference line
        col = "blue",
        lwd = 2)
+
+
+
+
+
+
+# ------------Lab Report--------------
+# Name of the experiment: Comparison of t-distribution with normal distribution for small sample sizes.\
+#  Theory:\
+#  The t-distribution, also known as student's t-distribution is used in statistical analysis when the sample size is small and the population standard deviation is unknown. It is similar to the normal distribution but with heavier tails, meaning it has a higher variability in small samples. As the sample size increases, the t-distribution approaches the normal distribution.\
+#  For a t-distribution with n-1 degrees of freedom, the probability density function is:\
+#  f(x) = (r^(n/2) / √(πny) Γ((n-1)/2)) (1 + x²/(n-1))⁻ⁿ⁄²
+#  Objective:\
+#  The objective of the experiment is to compare the t-distribution with the normal distribution for small sample sizes by:\
+#  • Generating t-distribution and normal data.\
+#  • Visualizing their histograms and density functions.\
+#  • comparing quantiles using a Q-Q plots.\
+#  Pseudocode:
+
+#  1. set parameters : sample size and number of simulations.
+# 2. Generate random values from t-distribution with degrees of freedom.
+# 3. Generate random values from a standard normal distribution.
+# 4. plot:\
+#     • Histogram of t-distribution with theoretical density.\
+#     • Histogram of normal distribution with theoretical density.\
+#     • Density plots of both distributions for comparison.\
+#     • Q-Q plot for t-distribution against theoretical quantiles.

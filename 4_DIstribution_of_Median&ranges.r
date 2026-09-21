@@ -63,3 +63,30 @@ curve(dnorm(x, mean = mu, sd = sigma / sqrt(n)),
 boxplot(list(Medians = medians, Ranges = ranges),
         col = c("lightblue", "lightgreen"),
         main = "Boxplot of Medians and Ranges")
+
+
+
+# -------------lab report---------------
+# Name of the experiment: Distribution of medians and ranges from sample population.\
+#  Theory:\
+#  In this lab, the goal is to examine the distributions of the medians and ranges computed from multiple samples drawn from a normal distribution. The median is the middle value when the data is sorted, and the range is the difference between the maximum and minimum values in the sample. The median is a robust measure of central tendency, especially in the presence of outliers.\
+#  The range provides a measure of the spread or variability in the sample data, but it can be highly influenced by outliers.\
+#  By simulating multiple samples from a normal distribution, we can investigate how the distributions of medians and ranges behave across repeated samples. For each sample, we calculate both the median and the range, and then analyze their distribution.\
+#  Objective:
+
+#  1. Simulate 1000 random samples from a normal distribution with mean 0 and standard deviation, each containing 20 values.
+# 2. Compute the median and range for each sample.
+# 3. Visualize the distributions of medians and ranges through histograms, density plots and boxplots.
+# 4. Compare the distributions of medians and ranges with the normal distribution and inspect their shapes.\
+    
+#     Pseudocode:
+# 1. set parameters:\
+#     ● mu = 0\
+#     ● sigma = 1\
+#     ● n = 20\
+#     ● N-sim = 1000
+# 2. Initialize vectors to store the results of the medians and ranges for each simulation.
+# 3. Set graphical layout to a 2x2 grid.
+# 4. Create histograms for the distributions of medians and ranges.\
+#     • Overlay the theoretical normal distribution curve for medians.
+# 5. Create a boxplot comparing the distribution of medians and ranges.

@@ -65,3 +65,36 @@ plot(density(sample_data_H1),
 abline(v = critical_value,
        col = "red",
        lty = 2)  # Critical value line
+
+
+
+# ----------lab---------
+# Name of the experiment: Derive the best critical region for Simple vs. composite hypotheses.
+
+# Theory:
+# This lab demonstrates how to derive the best critical region for a hypothesis test, specifically for testing simple versus composite hypotheses using the likelihood ratio test. It explores the decision-making process using sample data.
+
+# Objective:
+# • To derive the best critical region using the likelihood ratio test for simple vs. composite hypotheses.
+# • To perform hypothesis testing using the critical region.
+# • To visualize the critical region in density plots for both H₀ and H₁.
+
+# Pseudo code:
+# (1) Set parameters: mu0, mu1, sigma, n, alpha
+
+# (2) Generate Data:
+#    • Sample_data H0 from mu0
+#    • Sample_data H1 from mu1
+
+# (3) Likelihood Ratio test:
+#    • Calculate likelihood ratio for data
+
+# (4) Critical value: critical_value = qnorm(1-alpha, mean=sigma / sqrt(n))
+
+# (5) Decision:
+#    • decision_H0 = mean(sample_data) > critical_value
+#    • decision_H1 = mean(sample_data) > critical_value
+
+# (6) Output: Print critical value, decisions for H0 and H1
+
+# (7) Plot: Plot density for sample_data H0 and sample_data H1 with critical value.

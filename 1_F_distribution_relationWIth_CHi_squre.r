@@ -60,3 +60,57 @@ boxplot(f_data,
         col = "lightgreen",  # Boxplot color
         main = "Boxplot of F-Distributed Data",
         ylab = "Value")      # Y-axis label
+
+
+
+
+
+
+
+
+
+#-----------------Lab Report-----------------
+# Name of the experiment: Simulation of F-
+# Distribution data and its relationship with
+# X²-distribution.
+
+# Theory: The F-distribution arises in
+# statistical analysis when comparing variances
+# of two independent normal populations. It
+# is the ratio of two chi-square distri-
+# buted variables normalized by their
+# degrees of freedom:
+
+# F = (χ²_df1/df1)
+#     (χ²_df2/df2)
+
+# where:
+# • χ²_df1 and χ²_df2 are chi-square distributed
+#   random variables with df1 and df2 degrees
+#   of freedom, respectively.
+# • The F-distribution is right skewed and used
+#   in variance analysis such as ANOVA.
+
+# Objective:
+# The objective of this experiment is to simulate
+# F-distributed data using chi-square distri-
+# butions and analyze its properties using:
+# • Histogram and density plots.
+# • Q-Q plot for distribution verification
+# • Boxplot to observe spread and skewness.
+
+# Pseudocode:
+# 1. Set parameters: numerator degrees of
+#    freedom, denominator degrees of freedom, and
+#    number of simulations.
+# 2. Generate chi-square distributed random
+#    numbers for both numerator and denominator.
+# 3. Compute the F-distributed values using
+#    their ratio.
+# 4. Generate graphical outputs:
+#    • Histogram with theoretical density curve
+#    • Density plot overlaying the theoretical
+#      curve.
+#    • Q-Q plot comparing sample quantiles to
+#      theoretical quantiles.
+#    • Boxplot to visualize spread and skewness,

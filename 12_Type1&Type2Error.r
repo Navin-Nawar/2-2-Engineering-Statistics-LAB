@@ -81,3 +81,38 @@ hist(replicate(
 )
 
 abline(v = alpha, col = "red", lwd = 2)  # Significance level line
+
+
+
+
+
+
+
+
+
+# ----------lab---------
+# Name of the experiment: Simulate type I and type II errors in hypothesis testing.
+
+# Theory:
+# This lab simulates type I and type II errors in hypothesis testing by performing multiple simulations of t-test. The goal is to estimate the error rates associated with rejecting the null hypothesis when it is TRUE.
+
+# Objective:
+# • Simulate the occurrence of type I and type II errors in hypothesis testing.
+# • Estimate and display the type I error rate, type II error rate and power of a hypothesis test.
+# • Visualize the distribution of p values under the null hypothesis (H0) and alternative hypothesis (H1).
+
+# Pseudo code:
+
+# 1. Set parameters: mu0, mu1, sigma, n, alpha, N-sim.
+
+# 2. Initialize counters: Type-I errors = 0,
+#    Type-II errors = 0.
+
+# 3. Run simulations (N-sim times):
+#    • If p-value < alpha, increment Type-I errors.
+#    • If p-value >= alpha, increment Type-II error rate and power.
+
+# 4. Output: Calculate and print type-I error rate, type-II error rate and power.
+
+# 5. Plot:
+#    • Plot histograms for p-values under H0 (Type-I error) and H1 (Type-II error) with alpha threshold.
